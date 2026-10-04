@@ -1,0 +1,26 @@
+[
+  {
+    "id": "public-storage-001",
+    "title": "Public storage containing sensitive data",
+    "severity": "critical",
+    "internet_exposed": true,
+    "sensitive_data": true,
+    "privileged_path": false
+  },
+  {
+    "id": "iam-admin-001",
+    "title": "Human principal with standing admin access",
+    "severity": "high",
+    "internet_exposed": false,
+    "sensitive_data": false,
+    "privileged_path": true
+  },
+  {
+    "id": "logging-gap-001",
+    "title": "Control-plane logging incomplete",
+    "severity": "medium",
+    "internet_exposed": false,
+    "sensitive_data": false,
+    "privileged_path": false
+  }
+]
